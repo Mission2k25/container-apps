@@ -35,7 +35,7 @@ Define volumes and exposed ports in the Dockerfile for clarity, not for executio
 ### 2️⃣ Use a Custom Domain or IP
 
 ***Option A: Use Your Machine’s IP***
-- Find your IP: `ip addr show`
+- Find your IP: `ip addr show`/`ip addr show eth0`
 
 - Access Jenkins via: `http://<your-ip>:8080`
 
